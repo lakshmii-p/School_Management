@@ -145,9 +145,6 @@ This project is a CRUD school management system application that has been develo
 
 2. Use the software to manage Student Registration, Attendance, Exam and Result Management, Fee Management, and Generate Reports.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
 
 ## Acknowledgments
 
