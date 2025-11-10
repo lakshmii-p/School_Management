@@ -158,20 +158,3 @@ This project is licensed under the MIT License - see the [LICENSE]() file for de
 
 ---
 
-## Enhancements by P. Lakshmi (2025 Edition)
-
-To improve the functionality and UI/UX of the original project, I added the following new features during my development work:
-
-### ✅ About Dialog (New Feature)
-- Added an "About" action inside the application menu.
-- Shows App Version + Developer Name.
-- Helps users identify build version & author info easily.
-- Implemented via PyQt QMessageBox.
-
-### 🌙 Dark Mode & Light Mode (New Feature)
-- Added 2 theme actions: **Dark Mode** and **Light Mode**
-- Clicking Dark Mode instantly applies dark UI theme (custom stylesheet)
-- Clicking Light Mode resets back to default theme
-- Improves user experience & accessibility
-
-These enhancements were implemented by **me (P. Lakshmi)** to demonstrate UI feature contribution and customization capability.
