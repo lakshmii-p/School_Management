@@ -1,13 +1,13 @@
 from datetime import datetime
-from PyQt6.QtCore import *
-from PyQt6.QtGui import *
-from PyQt6.QtWidgets import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 import sys
-from PyQt6.uic import loadUiType
+from PyQt5.uic import loadUiType
 import mysql.connector as con
 
-from PyQt6.QtGui import QPainter, QPixmap
-from PyQt6.QtPrintSupport import QPrinter, QPrintDialog, QPrintPreviewDialog
+from PyQt5.QtGui import QPainter, QPixmap
+from PyQt5.QtPrintSupport import QPrinter, QPrintDialog, QPrintPreviewDialog
 
 ui, _ = loadUiType('schl_mgmt_app/qt_ui/school.ui')
 
