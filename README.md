@@ -1,125 +1,155 @@
-🎓 School Management System
 
-A Complete School Administration Software built using Python, PyQt6, Qt Designer, and MySQL.
+School Management System
 
-A fully functional desktop-based CRUD application designed to simplify daily school administrative operations — from student registration to fee management. This project demonstrates strong skills in Python GUI development, database integration, and real-world application design.
+A complete school administration software built with Python, PyQt6, Qt Designer, and MySQL.
 
-🚀 Features
+A fully functional CRUD-based desktop application designed to manage student registration, marks, attendance, fees, and administrative reports.
+
+<br>
+✨ Features
+<br>
 🔐 Login System
 
-Secure admin authentication
+Secure admin login
 
-Error message for invalid login
+Error message for invalid credentials
 
 Logout functionality
 
+<br>
 🧑‍🎓 Student Management
 
-Add, edit, delete student details
+Add, edit, and delete student details
 
 Auto-increment registration number
 
-Auto-calculate age from Date of Birth
+Automatically calculate age from Date of Birth
 
-Stores complete academic & personal information
+Stores personal and academic information
 
+<br>
 📝 Marks Management
 
-Add, edit, delete marks
+Add, edit, and delete marks
 
-Fetch all registration numbers
+Fetch all student registration numbers
 
 Retrieve marks for selected exams
 
-User-friendly input layout for entering results
+Clean marks entry interface
 
+<br>
 📆 Attendance Management
 
-Add, edit, delete attendance records
+Add, edit, and delete attendance
 
-Attendance date auto-filled with current date
+Auto-fill current date
 
-Fetch attendance for specific dates
+Fetch attendance by specific date
 
-Simple and clear attendance view
+Simple attendance tracking UI
 
+<br>
 💰 Fees Management
 
-Add, edit, delete fee details
+Add, edit, and delete fee details
 
-Auto-fill current date and month
+Auto-fill current date & month
 
-Search fees using receipt number
+Fetch fee information using receipt number
 
-Print & print-preview fee receipts
+Print preview and print receipt support
 
+<br>
 📊 Reports Dashboard
 
-Access all major administrative reports in one place:
+Student Report
 
-Student reports
+Marks Report
 
-Marks reports
+Attendance Report
 
-Attendance reports
+Fees Report
 
-Fee reports
+All reports organized in one place
 
+<br>
 🛠️ Tech Stack
-Component	Technology
-Programming Language	Python
-GUI Framework	PyQt6
-UI Design Tool	Qt Designer
-Database	MySQL
-Development Tools	XAMPP, MySQL Workbench (optional)
+
+Python 3
+
+PyQt6
+
+Qt Designer
+
+MySQL
+
+XAMPP
+
+<br>
 📥 Installation Guide
-1️⃣ Clone the Repository
+1. Clone the Repository
 git clone https://github.com/lakshmii-p/School_Management.git
 
-2️⃣ (Optional) Create and Activate Virtual Environment
+<br>
+2. (Optional) Create a Virtual Environment
 python -m venv env
 env\Scripts\activate
 
-3️⃣ Install Required Dependencies
+<br>
+3. Install Requirements
 pip install -r requirements.txt
 
-4️⃣ Database Setup
+<br>
+4. Set Up MySQL Database
 
 Install XAMPP
 
-Copy the school_db folder into:
+Copy the school_db folder to:
+
 C:\xampp\mysql\data\school_db
 
-Or create a symbolic link (Run CMD as Administrator):
+
+OR create a symbolic link (Run CMD as Administrator):
 
 mklink /d C:\xampp\mysql\data\school_db "C:\path\to\project\school_db"
 
-5️⃣ Start MySQL (via XAMPP)
-6️⃣ Run the Application
+<br>
+5. Start MySQL (via XAMPP)
+<br>
+6. Run the Application
 cd School_Management
 python ./main.py
 
+<br>
 📘 Usage
 
-Register and manage student details
+Register students
 
-Update marks and exam results
+Manage marks and attendance
 
-Track daily attendance
+Handle fee payments
 
-Handle fees and print receipts
+Generate printable receipts
 
-Generate structured, clean reports for admin use
+View admin-level reports
 
+<br>
 💡 Why This Project Stands Out
 
-✔ Complete end-to-end desktop application
-✔ Real-world CRUD operations
-✔ Clean UI built with PyQt6
-✔ Strong database integration
-✔ Perfect showcase for internships & placements
+Complete end-to-end school management application
 
+Clean and intuitive PyQt6 user interface
+
+Real-world CRUD operations
+
+Strong database integration
+
+Great project for resumes, internships, and placements
+
+<br>
 🙏 Acknowledgments
 
-Thanks to the developers of Python, PyQt6, Qt Designer, and MySQL for providing robust tools to create this project.
+Thanks to Python, PyQt6, Qt Designer, and MySQL for enabling this project.
 
+<br>
