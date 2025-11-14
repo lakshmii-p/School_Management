@@ -1,157 +1,125 @@
-# School Management Software
+🎓 School Management System
 
-![SCHOOL MANAGEMENT SYSTEM](./media/header.png)
+A Complete School Administration Software built using Python, PyQt6, Qt Designer, and MySQL.
 
-This project is a CRUD school management system application that has been developed using Python, PyQt6, Qt Designer, and MySQL.
+A fully functional desktop-based CRUD application designed to simplify daily school administrative operations — from student registration to fee management. This project demonstrates strong skills in Python GUI development, database integration, and real-world application design.
 
+🚀 Features
+🔐 Login System
 
-## Features
+Secure admin authentication
 
-- Student registration with their personal details and academic information
-- Attendance management for students
-- Exam and result management
-- Fee management for students
-- Generate various reports such as student details, marks, attendance, and fee reports
+Error message for invalid login
 
-## Prerequisites
+Logout functionality
 
-- Python 3
-- PyQt6
-- Qt Designer
-- MySQL
+🧑‍🎓 Student Management
 
-## Features Showcase
+Add, edit, delete student details
 
-### Login Form
+Auto-increment registration number
 
-**Features:**
+Auto-calculate age from Date of Birth
 
-- Login with admin Credentials
-- **Prompt** and **Message** for Invalid Credentials 
-- Logout Functionality
+Stores complete academic & personal information
 
-|                            Login                             |                       Logout                       |
-| :----------------------------------------------------------: | :------------------------------------------------: |
-| <img src=".\media\login.gif" alt="Login" style="zoom: 90%;" /> | <img src="./media/logout.gif" style="zoom:90%;" /> |
+📝 Marks Management
 
-### Student Tab
+Add, edit, delete marks
 
-**Features:**
+Fetch all registration numbers
 
-- Add, Edit and Delete Student Details
-- Auto-Increment Registration Number
-- Calculate **Age** from **Date Of Birth**
+Retrieve marks for selected exams
 
-| Add New Student                                         | Edit / Delete Student                                        |
-| ------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="./media/student_add.gif" style="zoom:90%;" /> | <img src="./media/student_edit_delete.gif" style="zoom:90%;" /> |
+User-friendly input layout for entering results
 
-### Marks Tab
+📆 Attendance Management
 
-**Features:**
+Add, edit, delete attendance records
 
-- Add, Edit and Delete Marks Details
-- Fetch All Registration Number
-- Fetch Marks For Specific Exams
+Attendance date auto-filled with current date
 
-| Add Marks                                             | Edit / Delete Marks                                          |
-| ----------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="./media/marks_add.gif" style="zoom:90%;" /> | <img src="./media/marks_edit_delete.gif" style="zoom:90%;" /> |
+Fetch attendance for specific dates
 
-### Attendance Tab
+Simple and clear attendance view
 
-**Features:**
+💰 Fees Management
 
-- Add, Edit and Delete Attendance Details
-- Fetch All Registration Number
-- Fetch Attendance Specific Date
-- Set **Add Attendance** Tab Date to Current Date 
+Add, edit, delete fee details
 
-| Add Attendance                                             | Edit / Delete Attendance                                     |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="./media/attendance_add.gif" style="zoom:90%;" /> | <img src="./media/attendance_edit_delete.gif" style="zoom:90%;" /> |
+Auto-fill current date and month
 
-### Fees Tab
+Search fees using receipt number
 
-**Features:**
+Print & print-preview fee receipts
 
-- Add, Edit and Delete Fees Details
-- Set **Add Fees** Tab Date to Current Date 
-- Set **Add Fees** Tab Month to Current Month 
-- Fetch Fees Details For Specific Receipt Number
-- **Print Preview** and **Print** functionality for Printing the Fees Receipt
+📊 Reports Dashboard
 
-| Add Fees                                             | Edit / Delete Fees                                           |
-| ---------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="./media/fees_add.gif" style="zoom:90%;" /> | <img src="./media/fees_edit_delete.gif" style="zoom:90%;" /> |
+Access all major administrative reports in one place:
 
-### Reports Tab
+Student reports
 
-**Features**
+Marks reports
 
-- **Students Report**
-- **Marks Report**
-- **Attendance Report**
-- **Fees Report**
-- Organized view of all Administrative Reports In one place 
+Attendance reports
 
-|                    View Reports                     |
-| :-------------------------------------------------: |
-| <img src="./media/reports.gif" style="zoom:80%;" /> |
+Fee reports
 
+🛠️ Tech Stack
+Component	Technology
+Programming Language	Python
+GUI Framework	PyQt6
+UI Design Tool	Qt Designer
+Database	MySQL
+Development Tools	XAMPP, MySQL Workbench (optional)
+📥 Installation Guide
+1️⃣ Clone the Repository
+git clone https://github.com/lakshmii-p/School_Management.git
 
+2️⃣ (Optional) Create and Activate Virtual Environment
+python -m venv env
+env\Scripts\activate
 
-## Installation
+3️⃣ Install Required Dependencies
+pip install -r requirements.txt
 
-1. Clone the repository
+4️⃣ Database Setup
 
-​	`git clone https://github.com/ankitsamaddar/school_management_pyqt.git`
+Install XAMPP
 
-2. (**Optional**) Create a Python virtual environment and activate it
+Copy the school_db folder into:
+C:\xampp\mysql\data\school_db
 
-   ```bash
-   python -m venv pyenv
-   pyenv\Scripts\Activate
-   ```
+Or create a symbolic link (Run CMD as Administrator):
 
-3. Install the required packages
+mklink /d C:\xampp\mysql\data\school_db "C:\path\to\project\school_db"
 
-  	`pip install -r requirements.txt`
+5️⃣ Start MySQL (via XAMPP)
+6️⃣ Run the Application
+cd School_Management
+python ./main.py
 
-4. Install `xampp` and copy the school_db to `C:\xampp\mysql\data\school_db`.
+📘 Usage
 
-   ```bat
-   winget install ApacheFriends.Xampp.8.2
-   ```
+Register and manage student details
 
-   Copy the `school_db` or create a directory symbolic link.
+Update marks and exam results
 
-   (Requires Elevated Command Prompt)
+Track daily attendance
 
-   ```bat
-   mklink /d C:\xampp\mysql\data\school_db "C:\path\to\school_management_pyqt\schl_mgmt_app\school_db"
-   ```
+Handle fees and print receipts
 
+Generate structured, clean reports for admin use
 
-## Usage
+💡 Why This Project Stands Out
 
-1. From the **XAMPP Control Panel** start the **Apache** and **MySQL** server.
-2. Navigate to the project directory and run the `main.py` file
+✔ Complete end-to-end desktop application
+✔ Real-world CRUD operations
+✔ Clean UI built with PyQt6
+✔ Strong database integration
+✔ Perfect showcase for internships & placements
 
-  ```bat
-  cd school_management_pyqt 
-  python ./schl_mgmt_app/main.py
-  ```
+🙏 Acknowledgments
 
-2. Use the software to manage Student Registration, Attendance, Exam and Result Management, Fee Management, and Generate Reports.
-
-
-## Acknowledgments
-
-- This project was inspired by the need to have an efficient way to manage school records.
-- Thanks to the developers of Python, PyQt6, Qt Designer, and Mysql for creating such amazing tools that made this project possible.
-
-
-
----
+Thanks to the developers of Python, PyQt6, Qt Designer, and MySQL for providing robust tools to create this project.
 
